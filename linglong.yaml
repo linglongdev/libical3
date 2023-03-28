@@ -15,9 +15,6 @@ source:
   url: https://github.com/deepin-community/libical3.git
   version: master
   commit: bb747c11794139ddb565374076dfc0f4641b1071
-  patch:
-  - '#icalbdbset.patch'
-  - '#gobject-introspection-version.patch'
 variables:
   extra_args: |
     -DGOBJECT_INTROSPECTION=false \
